@@ -10,16 +10,15 @@ if(0.3 == 2/7){
   console.log("条件文はいずれも偽");
 }
 
-try{
-  const readUndefined = undefined.value;
-  console.log("結果：", readUndefined);
-}catch(error){
-  console.log("エラー：", error);
-}
+//try{
+//  const readUndefined = undefined.value;
+//  console.log("結果：", readUndefined);
+//}catch(error){
+//  console.log("エラー：", error);
+//}
 //=>エラー文が表示される
 
-//for文で繰り返し
-//nの値が0～9になるまで計10回実行
+//for文で繰り返し、nの値が0～9になるまで計10回実行
 for(let n=0; n<10; n++){
   console.log('1かける${n}は${n}');
 }
