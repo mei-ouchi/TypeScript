@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.52",
+    "hono": "jsr:@hono/hono@^4.8.9"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --unstable-kv main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
